@@ -1,0 +1,191 @@
+.container{
+    height: 80vh;
+}
+/* DEMO-SPECIFIC STYLES */
+.typewriter h1 {
+color: rgb(14, 13, 13);
+font-family: monospace;
+width: 80vw;
+overflow: hidden; /* Ensures the content is not revealed until the animation */
+border-right: .15em solid orange; /* The typwriter cursor */
+white-space: nowrap; /* Keeps the content on a single line */
+margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+letter-spacing: .15em; /* Adjust as needed */
+/* bottom:vh; */
+animation: 
+typing 3.5s steps(30, end),
+blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+from { width: 0 }
+to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+from, to { border-color: transparent }
+50% { border-color: orange }
+}
+.abttext{
+width: 80vw;
+height: fit-content;
+margin: 10vw;
+text-align: center;
+justify-content: center;
+align-items: center;
+position: relative;
+bottom: 60vh;
+color: black;
+}
+.abtimg{
+opacity:0.8;
+height: 470px;
+width: 100%;
+}
+.abthd{
+position: relative;
+bottom:60vh;
+text-align: center;
+width: 80vw;
+}
+.btn{
+color: rgb(247, 244, 244);
+text-decoration: none;
+border: 1px solid black;
+padding: 5px 5px 5px 5px;
+align-items: center;
+justify-content: center;
+align-content: center;
+text-align: center;
+/* border-radius: 20px; */
+width: fit-content;
+height: fit-content ;
+position: relative;
+right: 10px;
+/* background-color: rgb(90, 86, 86); */
+}
+.btn:hover{
+background-color: rgb(82, 79, 79);
+}
+/* -----------------services css */
+
+.sercont{
+width: 80vw;
+height: fit-content;
+position: relative;
+bottom: 33vh;
+align-content: center;
+justify-content: center;
+}
+.serhead1{
+position: absolute;
+width: fit-content;
+text-align: center;
+/* border-bottom: 2px solid rgb(133, 129, 129); */
+justify-content: center;
+align-content: center;
+margin-top: 20%;
+/* margin-left: 45%; */
+width: 80vw;
+margin-left: 10vw;
+font-size: larger;
+font-weight: bold;
+
+}
+/* ---------services css starts here  */
+.serhead {
+position: relative;
+bottom:170px;
+width: fit-content;
+height: fit-content;
+color: black;
+font-size: x-large;
+text-align: center;
+/* border-bottom: 2px solid red; */
+
+}
+div .serh1{
+position: relative;
+border-bottom: 2px solid red;
+padding: 2px 2px 2px 2px;
+text-align: center;
+
+width: fit-content;
+height: fit-content;
+justify-content: center;
+align-items: center;
+align-content: center;
+text-align: center;
+margin-left:147%;
+top: 130px;
+}
+.services a{
+position:relative;
+text-align: center;
+left: 32%;
+font-size:larger;
+text-decoration:none;
+font-weight: 900;
+color: rgb(0, 0, 0);
+bottom:158px;
+opacity: 0;
+}
+
+.service img:hover {
+transition: 0.5s;
+opacity: 0.5;
+}
+.services .service:hover a{
+transition: 1.5s;
+opacity: 1;
+}
+.service p{
+font-size: large;
+font-weight: bold;
+}
+.album{
+    width:fit-content;
+    margin-left:43vw;
+    height: fit-content;
+    text-align:center;
+    border-bottom: 2px solid red;
+     padding: 2px 2px 2px 2px;
+     font-size: large;
+     font-weight: bold;
+}
+
+
+/* ------------------------------ */
+
+.services{
+                        
+    width: 80vw;
+    height: fit-content;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    
+}
+.service p {
+    
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 5px solid #ede8e8;
+    padding:2px 2px 8px 2px;
+
+}
+.service img{
+    width: 80vw;
+    height:300px;
+}
+
+
+
+
+
+
+
+/* ----------------------testimoanls------------------- */

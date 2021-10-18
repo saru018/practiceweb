@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background: rgb(201, 196, 196);
+        }
+        .cont{
+            width:70vw;
+            height:290px;
+            border: 2px solid rgb(241, 237, 237);
+            /* box-shadow: 5px 5px 5px 5px; */
+            /* position: absolute; */
+            margin-left: 15vw;
+            margin-top: 30%;
+            background: white;
+        }
+        .cont:hover{
+            box-shadow: -3px 2px 24px -10px;
+            transition: 1.5s;
+            transform: scaleX(1.1);
+            transform: scaleY(1.1);
+        }
+        .cont img{
+            width: 30vw;
+            height:15vh;
+            border: 2px solid white;
+            border-radius: 50%;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            margin-left: 45%;
+            right: 40px;
+            bottom: 50px;
+
+        }
+        .cont img:hover{
+
+            filter:saturate(105%);
+
+        }
+        .cont .img1{
+            position: relative;
+    right: 113px;
+    width: 35px;
+    height: 35px;
+    bottom:87px;
+
+        }
+        .cont .img2{
+            width: 35px;
+            height: 35px;
+            position: relative;
+            left: 80px;
+             top: 55px;
+
+        }
+       .cont p{
+           position: relative;
+           width: 60vw;
+           left: 40px;
+           bottom: 140px;
+           color: rgb(95, 93, 93);
+           
+       }
+       .containerr{
+           display: flex;
+           flex-direction: column;
+       }
+       .cont .reh{
+        position: relative;
+        top: -48px;
+        left: 95px;
+        font-weight: bold;
+        color: black;
+       }
+       
+    </style>
+</head>
+
+<body>
+    <div class="containerr">
+        <div class="cont">
+            <img src="img/pre (3).jpg" alt="">
+            <p class="reh">Virushka</p>
+            <img src="img/sym-1.JPG" alt="" class="img1">
+            <img src="img/sym2.JPG" alt="" class="img2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, ullam? Cum, non minima quasi unde quibusdam rerum eum doloremque, autem corrupti officiis tenetur ad. Animi esse voluptates quas temporibus vitae?</p>
+        </div>
+        <div class="cont">
+            <img src="img/pre (3).jpg" alt="">
+            <img src="img/sym-1.JPG" alt="" class="img1">
+            <img src="img/sym2.JPG" alt="" class="img2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, ullam? Cum, non minima quasi unde quibusdam rerum eum doloremque, autem corrupti officiis tenetur ad. Animi esse voluptates quas temporibus vitae?</p>
+        </div>
+    </div>
+    
+</body>
+</html>
